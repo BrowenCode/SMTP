@@ -1,5 +1,5 @@
 # SMTP
-A working, retro-style Simple Mail Transfer Protocol Client and Server that utilizes TCP sockets &amp; self-written string parsing. Written for a course on Networking Services and Protocols
+A working, retro-style Simple Mail Transfer Protocol Client and Server that utilizes TCP sockets &amp; self-written string parsing.
 
 Client.py is a SMTP Client program which takes two arguments: a domain name for a machine that hosts an SMTP server application, and a port number. The client takes a user-entered email, verifies the grammar of the user information as defined by RFC 821, and establishes a connection with the specified server via the specified port. Consequently, the client sends a sequence of valid SMTP messages to the server in order to transfer the email.
 
